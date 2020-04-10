@@ -131,7 +131,7 @@ public class ContactsManagerActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         if (intent != null) {
-            String phone = intent.getStringExtra("ro.pub.cs.systems.eim.lab04.contactsmanager.PHONE_NUMBER_KEY");
+            String phone = intent.getStringExtra("ro.pub.cs.systems.eim.lab03.contactsmanager.PHONE_NUMBER_KEY");
             if (phone != null) {
                 phoneEditText.setText(phone);
             } else {
